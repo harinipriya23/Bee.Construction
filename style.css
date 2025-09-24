@@ -38,6 +38,10 @@ body {
 .bg-opacity-2 {
     background-color: rgba(0, 106, 244, 0.5);
 }
+.circle {
+    height: 8px;
+    width: 8px;
+}
 .w-btn {
     position: absolute;
     left: 10px;
@@ -48,7 +52,27 @@ body {
     top: 0;
     left: 0;
 }
-
+.search-icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+/* IMG */
+.img-size-30 {
+    height: 30px;
+    width: 30px;
+}
+.img-size-100 {
+    height: 100px;
+    width: 100px;
+}
+.img-size-80 {
+    height: 80px; width: 80px;
+}
+.img-rectangle-270-200 {
+    height: 270px;
+    width: 200px;
+}
 @media (min-width: 768px) {
     .w-half {
         position: absolute;
