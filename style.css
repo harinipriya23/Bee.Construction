@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0px;
+}
+
+.bg-dark-blue {
+    background-color: rgb(9, 9, 98);
+}
+.bg-black {
+    background-color: black;
+}
+.text-xs{
+    font-size: 12px;
+}
+.btn-rounded {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.bg-img-1 {
+    background-image: url('images/bg_1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg-img-2 {
+    background-image: url('images/bg_3.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.bg-opacity-1 {
+    background-color: rgba(247, 249, 255, 0.5);
+}
+.bg-opacity-2 {
+    background-color: rgba(0, 106, 244, 0.5);
+}
+.w-btn {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.blog-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .w-half {
+        position: absolute;
+        left: 50%;
+        width: 50%;
+    }
+    .w-btn {        
+    top: auto; bottom: 10px;
+    }
+}
